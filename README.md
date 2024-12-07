@@ -9,3 +9,5 @@ F_ij = N_ij/ max(Ni, Nj)
 2. Filler episodes are documented in the pkl file
 
 3. gexf files can be opened using the networkX module in python
+
+4. The network properties file is essentially of my results to check against. You can use the 'Connect. Thresh' column to threshold the weak links. As a reminder, this threshold is the highest threshold that still keeps the network fully connected. The 'Binary' prefix for columns just means that measure was calculated while ignoring the link strengths (post thresholding)
